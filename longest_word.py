@@ -1,4 +1,4 @@
-def longest_word(*characters):
+def longest(*characters):
 	longest = characters[0]
 
 	for character in characters:
@@ -7,4 +7,4 @@ def longest_word(*characters):
 
 	return f" {longest} \n {len(longest)}"
 
-print(longest_word('welcome', 'out', 'weather', 'mobile', 'breakfast', 'journey'))
+print(longest('welcome', 'out', 'weather', 'mobile', 'breakfast', 'journey'))
